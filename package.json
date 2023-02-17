@@ -1,0 +1,24 @@
+{
+  "name": "e2ee",
+  "version": "1.0.0",
+  "description": "E2EE POC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "crypto"
+  ],
+  "author": "vjay11yenam@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "aes256": "^1.1.0",
+    "crypto": "^1.0.1"
+  }
+}
